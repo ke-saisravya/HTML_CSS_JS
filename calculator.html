@@ -1,0 +1,66 @@
+""" Code of Calculator in HTML """
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" >
+    <script src="calculator.js"></script>
+  </head>
+<body>
+<form name="f">
+    <div id="all">
+        <input type="text" class="tb" placeholder="0" name="main">
+    <div id="row1">
+        <input type="button" class="i1" value="AC" onclick = "f.main.value = '' ">
+        <input type="button" class="i2" value="%"  onclick = "mod()">
+        <input type="button" class="i3" value="C"  onclick = "f.main.value=f.main.value.toString().slice(0,-1)">
+        <input type="button" class="i4" value="/"  onclick = "div()">
+    </div>
+    <div id="row2">
+        <input type="button" class="i5" value="7" onclick="f.main.value+=7">
+        <input type="button" class="i6" value="8" onclick="f.main.value+=8">
+        <input type="button" class="i7" value="9" onclick="f.main.value+=9">
+        <input type="button" class="i8" value="x" onclick="mul()">
+    </div>
+    <div id="row3">
+        <input type="button" class="i9" value="4" onclick="f.main.value+=4">
+        <input type="button" class="i10" value="5" onclick="f.main.value+=5">
+        <input type="button" class="i11" value="6" onclick="f.main.value+=6">
+        <input type="button" class="i12" value="-" onclick="sub()">
+    </div>
+    <div id="row4">
+        <input type="button" class="i13" value="1" onclick="f.main.value+=1">
+        <input type="button" class="i14" value="2" onclick="f.main.value+=2">
+        <input type="button" class="i15" value="3" onclick="f.main.value+=3">
+        <input type="button" class="i16" value="+" onclick="add()">
+    </div>
+    <div id="row5">
+        <input type="button" class="i17" value="00" onclick="f.main.value+='00'">
+        <input type="button" class="i18" value="0" onclick="f.main.value+=0">
+        <input type="button" class="i19" value="." onclick="f.main.value+='.'">
+        <input type="button" class="i20" value="=" onclick="f.main.value=eval(f.main.value)">
+    </div>
+</div>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
