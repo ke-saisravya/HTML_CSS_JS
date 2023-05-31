@@ -1,0 +1,168 @@
+""" Code of Calculator in CSS """
+*{
+    
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        justify-content: center;
+    align-items: center;
+    text-align: center;
+    place-items: center;
+    padding: 30px;
+}
+
+#all{
+    height: 430px;
+    width: 280px;
+    background-color: rgb(30, 30, 30) ;
+    border-radius: 40px;
+    box-shadow: 4px 4px 4px 4px  rgb(101, 105, 115);
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    place-items: center;
+    padding-top: 40px;
+}
+
+.tb{
+    width: 240px;
+    text-align: right;
+    border-radius: 0px;
+    background-color:rgb(30, 30, 30) ;
+    font-size: 35px;
+    padding-top: 20px ;
+}
+div{
+    padding: 2.5px;
+}
+input{
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 29px;
+    border:0px ;
+    width:60px;
+    height: 60px;
+    color: aliceblue;
+}
+.i1{
+    background-color: orange;
+   
+}
+.i2{
+    background-color: orange;
+}
+.i3{
+    background-color: orange;
+}
+.i4{
+    background-color: orange;
+}
+.i5{
+    background-color: rgb(50,55,60);
+}
+.i6{
+    background-color: rgb(50, 55, 60);
+}
+.i7{
+    background-color: rgb(50, 55, 60);
+}
+.i8{
+    background-color: orange;
+}
+.i9{
+    background-color: rgb(50, 55, 60);
+}
+.i10{
+    background-color: rgb(50, 55, 60);
+}
+.i11{
+    background-color: rgb(50, 55, 60);
+}
+.i12{
+    background-color: orange;
+}
+.i13{
+    background-color: rgb(50, 55, 60);
+}
+.i14{
+    background-color: rgb(50, 55, 60);
+}
+.i15{
+    background-color: rgb(50, 55, 60);
+}
+.i16{
+    background-color: orange;
+}
+.i17{
+    background-color: rgb(50, 55, 60);
+}
+.i18{
+    background-color: rgb(50, 55, 60);
+}
+.i19{
+    background-color: rgb(50, 55, 60);
+}
+.i20{
+    background-color: orange;
+    
+}
+.i1:hover{
+    background-color: rgb(247, 198, 108);
+}
+.i2:hover{
+    background-color: rgb(247, 198, 108);
+}
+.i3:hover{
+    background-color: rgb(247, 198, 108);
+}
+.i4:hover{
+    background-color: rgb(247, 198, 108);
+}
+.i5:hover{
+    background-color: rgba(175, 172, 216, 0.932)
+}
+.i6:hover{
+    background-color: rgb(175, 172, 216, 0.93);
+}
+.i7:hover{
+    background-color: rgb(175, 172, 216, 0.93);
+}
+.i8:hover{
+    background-color: rgb(247, 198, 108);
+}
+.i9:hover{
+    background-color: rgb(175, 172, 216, 0.93);
+}
+.i10:hover{
+    background-color: rgb(175, 172, 216, 0.93);
+}
+.i11:hover{
+    background-color: rgb(175, 172, 216, 0.93);
+}
+.i12:hover{
+    background-color: rgb(247, 198, 108);
+}
+.i13:hover{
+    background-color: rgb(175, 172, 216, 0.93);
+}
+.i14:hover{
+    background-color: rgb(175, 172, 216, 0.93);
+}
+.i15:hover{
+    background-color: rgb(175, 172, 216, 0.93);
+}
+.i16:hover{
+    background-color: rgb(247, 198, 108);
+}
+.i17:hover{
+    background-color: rgb(175, 172, 216, 0.93);
+}
+.i18:hover{
+    background-color: rgb(175, 172, 216, 0.93);
+}
+.i19:hover{
+    background-color: rgb(175, 172, 216, 0.93);
+}
+.i20:hover{
+    background-color: rgb(247, 198, 108);
+}
